@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Bahij TheSansArabic';
+    src: url('BahijTheSansArabic-ExtraBold.woff2') format('woff2'),
+        url('BahijTheSansArabic-ExtraBold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bahij TheSansArabic';
+    src: url('BahijTheSansArabic-Black.woff2') format('woff2'),
+        url('BahijTheSansArabic-Black.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bahij TheSansArabic';
+    src: url('BahijTheSansArabic-Bold.woff2') format('woff2'),
+        url('BahijTheSansArabic-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bahij TheSansArabic';
+    src: url('BahijTheSansArabic-ExtraLight.woff2') format('woff2'),
+        url('BahijTheSansArabic-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bahij TheSansArabic';
+    src: url('BahijTheSansArabic-Light.woff2') format('woff2'),
+        url('BahijTheSansArabic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bahij TheSansArabic Plain';
+    src: url('BahijTheSansArabic-Plain.woff2') format('woff2'),
+        url('BahijTheSansArabic-Plain.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bahij TheSansArabic';
+    src: url('BahijTheSansArabic-SemiBold.woff2') format('woff2'),
+        url('BahijTheSansArabic-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bahij TheSansArabic SemiLight';
+    src: url('BahijTheSansArabic-SemiLight.woff2') format('woff2'),
+        url('BahijTheSansArabic-SemiLight.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
