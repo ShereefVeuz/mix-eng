@@ -477,3 +477,19 @@ gsap.from(".team-block-three", {
         toggleActions: "play none none reverse",
     }
 });
+
+// service page
+gsap.from(".inner-serv-cont .serv-inner-items-out", {
+    duration: 1,
+    x: 100,
+    opacity: 0,
+    stagger: 0.3,
+    scrollTrigger: {
+        trigger: ".inner-serv-cont .serv-inner-items-out",
+        start: "top 80%",
+        end: "top 20%",
+        scrub: true,
+        markers: false,
+        toggleActions: "play none none reverse",
+    },
+});

@@ -20,7 +20,7 @@
 <body>
 
     <!-- loader -->
-    <!-- <div class="loader-wrap">
+    <div class="loader-wrap">
         <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
             <path id="presvg" fill="#000" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
         </svg>
@@ -29,7 +29,7 @@
                 <img src="assets/img/mix-logo.png" alt="Logo" class="loader-logo" />
             </span>
         </div>
-    </div> -->
+    </div>
 
     <!-- END loader -->
 
@@ -48,14 +48,12 @@
             </div>
         </div>
 
-        <!-- desk nav-->
         <div class="main-nav" id="navbar">
             <div class="d-flex align-items-center w-100 justify-content-between">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <a href="index.html"><img src="assets/img/mix-logo.png" alt="" class="logo-width"></a>
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent">
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -65,24 +63,29 @@
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="index.html">Home</a>
                                 </li>
-                                <!-- <li class="nav-item">
-                                    <a class="nav-link" href="#">About MIX </a>
-                                </li> -->
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         About MIX
                                     </a>
-                                    <ul class="dropdown-menu dropdown-menu-item-out"
-                                        aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <ul class="dropdown-menu dropdown-menu-item-out" aria-labelledby="navbarDarkDropdownMenuLink">
                                         <li><a class="dropdown-item" href="our-story.html">Our Story </a></li>
                                         <li><a class="dropdown-item" href="why-mix.html">Why MIX? </a></li>
                                         <li><a class="dropdown-item" href="partners.html">Partners </a></li>
                                         <li><a class="dropdown-item" href="team-mix.html">The MIX Team </a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Services </a>
+                                <li class="nav-item dropdown">
+                                    <div class="d-flex align-items-center nav-link-wrapper">
+                                        <a class="nav-link" href="service-listing.html">Services</a>
+                                        <a class="nav-link dropdown-toggle px-1" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="visually-hidden">Toggle dropdown</span>
+                                        </a>
+                                    </div>
+                                    <ul class="dropdown-menu dropdown-menu-item-out" aria-labelledby="navbarDarkDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="conferences-forums.html">Conference & Forums</a></li>
+                                        <li><a class="dropdown-item" href="exhibitions-concept-design.html">Exhibitions & Concept design</a></li>
+                                        <li><a class="dropdown-item" href="entertainment-events.html">Entertainment & Events</a></li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Portfolio </a>
@@ -160,65 +163,185 @@
     <section class="inner-banner-out">
         <div class="shadow-shape shadow-shape-2"></div>
         <div class="inner-banner">
+            <div class="inner-banner-img">
+                <img src="assets/img/service-bg.png" class="img-fluid" alt="">
+            </div>
             <div class="container">
                 <div class="inner-banner-cnt">
                     <h2>Conferences & Forums </h2>
-                    <!-- <div class="inner-banner-cnt-small">
-                        Big conversations deserve bold stages. 
-                    </div> -->
                     <p>
                         We build immersive spaces with energy, clarity, and connection. By fusing strategy and
                         storytelling, our team designs environments where perspectives expand and cosmic sparks
                         create connections across galaxies.
                     </p>
-                    <!-- <a href="index.html"><span>Home</span></a>
-                    <span>/</span>
-                    <span>About Us</span> -->
                 </div>
             </div>
         </div>
         <div class="shadow-shape"></div>
     </section>
-    <!-- banner -->
 
 
     <!-- what we do -->
     <section class="service-inrpages common-section">
         <div class="shadow-shape shadow-shape-2"></div>
             <div class="width-container">
-                <div class="section-title">
-                    <h2>Spark the Shift </h2>
-                    <p>
-                        We bring depth, direction, and design to every moment, making space for ideas to grow, shift,
-                        and soar.
-                    </p>
-                </div>
                 <div class="inner-serv-cont">
+                    <div class="section-title text-center">
+                        <h2 class="reveal-type" data-bg-color="#ffffff1c" data-fg-color="#fff">Spark the Shift </h2>
+                        <p>
+                            We bring depth, direction, and design to every moment, making space for ideas to grow, shift,
+                            and soar.
+                        </p>
+                    </div>
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="left-inner-serv-cont">
-                                <img src="assets/img/01.jpg" class="img-fluid" alt="">
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Conferences</h4>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="right-inner-serv-cont">
-                                <ul>
-                                    <li>Conferences </li>
-                                    <li>Forums </li>
-                                    <li>Summits </li>
-                                    <li>Corporate & Private Events </li>
-                                    <li>Product Launches </li>
-                                    <li>Concept Design </li>
-                                    <li>Space Booking & Logistics Services </li>
-                                    <li>Crowd Management </li>
-                                    <li>Hospitality </li>
-                                    <li>Travel & Transportation </li>
-                                    <li>Documentation </li>
-                                    <li>Content Design </li>
-                                    <li>Artwork & Design (3Ds Max Studio) </li>
-                                    <li>Manufacturing Services </li>
-                                    <li>Public Relations & Press Monitoring </li>
-                                </ul>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon2.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Forums </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon3.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Summits </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon4.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Corporate & Private Events </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon5.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Product Launches </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon6.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Concept Design </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon7.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Space Booking & Logistics Services </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon8.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Crowd Management </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon9.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Hospitality </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon10.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Travel & Transportation </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon11.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Documentation </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon12.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Content Design </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Artwork & Design (3Ds Max Studio) </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon13.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Manufacturing Services </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 serv-inner-items-out">
+                            <div class="serv-inner-items">
+                                <div class="left-serv-inner-items">
+                                    <img src="assets/img/serv-icon14.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="right-serv-inner-items">
+                                    <h4>Public Relations & Press Monitoring </h4>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -227,6 +350,112 @@
             </div>
             <div class="shadow-shape"></div>
     </section>
+
+
+    <section class="portfolio">
+            <div class="shadow-shape shadow-shape-2"></div>
+            <div class="width-container">
+
+                <div class="portfolio-head">
+                    <div class="left-portfolio-head">
+                        <div class="section-title">
+                            <h3>Projects</h3>
+                        </div>
+                        <h2>
+                            <!-- Explore Beyond the <br> -->
+                            <div class="changebox">
+                                <span class="changebox1"><span style="color: white !important;">Explore Beyond the </span> Horizon</span><br>
+                                <span class="changebox2">View Signature Events</span><br>
+                            </div>
+                        </h2>
+                    </div>
+                    <div>
+                        <div class="mix-btn-out">
+                            <button class="mix-btn">
+                                View More
+                                <span class="icon"><i class="fas fa-arrow-right"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 portfolio-in">
+                    <div class="row g-0">
+
+                        <div class="col-md-6">
+                            <div class="portfolio-items" data-aos="fade-down-right" data-aos-duration="3000">
+                                <div class="portfolio-items-img">
+                                    <img src="assets/img/01.jpg" class="img-fluid" alt="mixevents">
+                                </div>
+                                <div class="portfolio-items-cont">
+                                    <h2>PIF Legal Forum 2024</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="portfolio-items" data-aos="fade-down-right" data-aos-duration="3000">
+                                <div class="portfolio-items-img">
+                                    <img src="assets/img/02.jpg" class="img-fluid" alt="mixevents">
+                                </div>
+                                <div class="portfolio-items-cont">
+                                    <h2>CityScape Global 2024</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="portfolio-items" data-aos="fade-down-right" data-aos-duration="3000">
+                                <div class="portfolio-items-img">
+                                    <img src="assets/img/03.jpg" class="img-fluid" alt="mixevents">
+                                </div>
+                                <div class="portfolio-items-cont">
+                                    <h2>FNPOS II Conference</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="portfolio-items" data-aos="fade-down-right" data-aos-duration="3000">
+                                <div class="portfolio-items-img">
+                                    <img src="assets/img/04.jpg" class="img-fluid" alt="mixevents">
+                                </div>
+                                <div class="portfolio-items-cont">
+                                    <h2>PIF Legal Forum 2024</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-shape"></div>
+        </section>
+
+    <section class="cta">
+            <div class="shadow-shape shadow-shape-2"></div>
+            <video autoplay="" muted="" loop="" playsinline="">
+                <source src="assets/img/footer-video.webm" type="video/mp4">
+            </video>
+            <div class="cta-inner">
+                <div class="container">
+                    <div class="cta-content"> 
+                        <h2>Launch the Limitless </h2>
+                        <p>
+                            Shape a new constellation of ideas with our all-inclusive Conferences & Forums experience, ready for liftoff.
+                        </p>
+                        <div>
+                            <button class="mix-btn">
+                                CONNECT WITH MIX
+                                <span class="icon"><i class="fas fa-arrow-right"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="shadow-shape"></div>
+        </section>
+        
 
     <section class="footer">
         <div class="width-container">
