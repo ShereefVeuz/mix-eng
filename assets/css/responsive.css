@@ -138,6 +138,28 @@
 		display: none;
 	}
 
+	.ceo-message-in {
+  		padding: 80px;
+	}
+	.ceo-message-cont{
+		margin-top: 30px;
+	}
+	.ceo-message-cont h2 {
+		font-size: 35px;
+		line-height: 40px;
+		margin-bottom: 5px;
+	}
+	.ceo-message-shape {
+  		top: 30px;
+	}
+	.message-qoutes svg, .message-qoutes i {
+  		font-size: 150px;
+	}
+	.ceo-message-img {
+		width: 55%;
+		margin: 0 auto;
+	}
+
 	/* cta */
 	.cta-content {width: 90%;}
 	.cta-content h2 { font-size: 35px;}
@@ -255,6 +277,11 @@
 	.step-content {
 		gap: 20px;
 	}
+	.ceo-message-in {
+		padding: 35px;
+	}
+
+	
 
 
 }
@@ -366,15 +393,24 @@
 		order: 1;
 	}
 
-	/* CTA */
-	.cta-content {
-  		padding: 80px 30px;
-	}
-
-	/* about */
 	.vis-mis p {
 		font-size: 14px;
 		line-height: 25px;
+	}
+	.message-qoutes svg, .message-qoutes i {
+  		display: none;
+	}
+	.ceo-message-cont p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	 .ceo-message-img {
+    	width: 65%;
+	}
+
+	/* CTA */
+	.cta-content {
+  		padding: 80px 30px;
 	}
 
 }
