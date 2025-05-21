@@ -262,6 +262,31 @@ dropdownToggles.forEach(toggle => {
 //// END dropdown menu
 
 
+// portfolio
+document.querySelectorAll('.portfolio-items').forEach(item => {
+  const content = item.querySelector('.portfolio-items-cont');
+
+  item.addEventListener('mouseenter', () => {
+    gsap.killTweensOf(content);
+    gsap.to(content, {
+      y: -30,
+      opacity: 1,
+      duration: 0.7,
+      ease: "power3.out"
+    });
+  });
+
+  item.addEventListener('mouseleave', () => {
+    gsap.killTweensOf(content);
+    
+    gsap.to(content, {
+      y: 0,
+      opacity: 0,
+      duration: 0.4,
+      ease: "power3.in"
+    });
+  });
+});
 
 
 // why mix 
