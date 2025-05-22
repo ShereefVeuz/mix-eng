@@ -461,7 +461,7 @@ $(document).ready(function(){
             }
         }
     });
-    });
+  });
 
 
 // teams about
@@ -493,3 +493,116 @@ gsap.from(".inner-serv-cont .serv-inner-items-out", {
         toggleActions: "play none none reverse",
     },
 });
+
+
+// portfolio banner
+$(document).ready(function() {
+  $(".portf-page-item-out").owlCarousel({
+    margin: 20,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    center: true,
+    // ltr: true,
+    stagePadding: 0,
+    loop: true,
+    responsive: {
+      0: { items: 1 },
+      500: { items: 2 },
+      700: { items: 3 },
+      900: { items: 3 },
+      1200: { items: 3 }
+    }
+  });
+});
+
+
+$(document).ready(function() {
+  $(".portf-page-item-out2").owlCarousel({
+    margin: 20,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    center: true,
+    rtl: true,
+    stagePadding: 0,
+    loop: true,
+    responsive: {
+      0: { items: 1 },
+      400: { items: 2 },
+      700: { items: 3 },
+      1000: { items: 3 }
+    }
+  });
+});
+
+
+// filter profilePage
+const filterContainer = document.querySelector(".pf-category-filter"),
+ galleryItems = document.querySelectorAll(".pf-category-item");
+
+ filterContainer.addEventListener("click", (event) =>{
+   if(event.target.classList.contains("filter-item")){
+   	 // deactivate existing active 'filter-item'
+   	 filterContainer.querySelector(".active").classList.remove("active");
+   	 // activate new 'filter-item'
+   	 event.target.classList.add("active");
+   	 const filterValue = event.target.getAttribute("data-filter");
+   	 galleryItems.forEach((item) =>{
+       if(item.classList.contains(filterValue) || filterValue === 'all'){
+       	item.classList.remove("hide");
+       	 item.classList.add("show");
+       }
+       else{
+       	item.classList.remove("show");
+       	item.classList.add("hide");
+       }
+   	 });
+   }
+ });
+
+
+ // portfolio banner
+$(document).ready(function() {
+  $(".portf-page-item-popup").owlCarousel({
+    margin: 20,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    center: true,
+    ltr: true,
+    stagePadding: 0,
+    loop: true,
+    responsive: {
+      0: { items: 1 },
+      500: { items: 2 },
+      700: { items: 3 },
+      900: { items: 3 },
+      1200: { items: 3 }
+    }
+  });
+});
+
+
+// Lenis disabled
+const disableLenisSections = document.querySelectorAll('.modal-main-input');
+ 
+disableLenisSections.forEach((section) => {
+  section.addEventListener('wheel', (e) => {
+    lenis.stop();
+   
+    section.scrollTop += e.deltaY;
+   
+    e.preventDefault();
+   
+    setTimeout(() => lenis.start(), 100);
+  }, { passive: false });
+});
+
+
+
+
+
