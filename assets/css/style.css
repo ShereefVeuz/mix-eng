@@ -2228,6 +2228,8 @@ body.loading {
 	background-size: cover;
 	background-position: center;
 	position: relative;
+	background-blend-mode: overlay;
+  	background-color: #00000075;
 }
 
 .left-inner-serv-cont {
