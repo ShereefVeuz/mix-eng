@@ -46,7 +46,7 @@ h1 {
 }
 
 .section-padding {
-	padding: 100px 0px;
+	padding: 80px 0px 0;
 }
 
 .custom-container {
@@ -365,7 +365,7 @@ body.loading {
 .menu-button.open .close-icon {
 	display: inline;
 	display: inline;
-	padding-left: 100px;
+	/* padding-left: 100px; */
 	border-radius: 50px;
 	color: #e80089;
 	font-size: 35px;
@@ -913,9 +913,24 @@ body.loading {
 	margin: 0 auto;
 }
 
+.process-section,
+.page-about-in-cont,
+.vis-mis-iner,
+.top-portfolio-head,
+.partners-content-out,
+.inner-serv-cont,
+.page-career-in-cont{
+	position: relative;
+	z-index: 2;
+}
+
+
+
+
+
 /* start portfolio here */
 .portfolio {
-	padding: 100px 0px;
+	padding: 80px 0px 0;
 	background-image: url(../img/portfolio.png);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1228,7 +1243,7 @@ body.loading {
     position: relative;
     background-attachment: fixed;
     animation: backgroundZoom 20s infinite ease-in-out;
-	padding: 100px 0px;
+	padding: 80px 0px 0;
 }
 
 @keyframes backgroundZoom {
@@ -1294,7 +1309,7 @@ body.loading {
 
 
 .page-wrapper {
-	padding: 100px 0;
+	padding: 80px 0 0;
 }
 
 .page-wrapper .card-wrapper {
@@ -1552,8 +1567,8 @@ body.loading {
 }
 
 .inner-banner h2 {
-	font-size: 70px;
-	line-height: 80px;
+	font-size: 100px;
+	line-height: 100px;
 	font-weight: 700;
 	color: #fff;
 	margin-bottom: 15px;
@@ -1610,7 +1625,7 @@ body.loading {
 
 
 .page-about-out {
-	padding: 100px 0;
+	padding: 80px 0 0;
 	position: relative;
 	background-image: url(../img/inner-banner-2.jpg);
 	width: 100%;
@@ -1679,7 +1694,7 @@ body.loading {
 
 /* vision & mission */
 .vis-mis{
-	padding: 100px 0;
+	padding: 80px 0 0;
 	position: relative;
 	background-image: url(../img/what-we-do-1.png);
 	background-repeat: no-repeat;
@@ -1788,7 +1803,7 @@ body.loading {
 -------------------------------------*/
 /* how partner */
 .why-mix{
-	padding: 100px 0px;
+	padding: 80px 0px 0;
 	background-image: url(../img/what-we-do-1.png);
 	background-repeat: no-repeat;
 	width: 100%;
@@ -1943,7 +1958,7 @@ body.loading {
 }
 
 .partners {
-	padding: 100px 0px;
+	padding: 80px 0px 0;
 	background-image: url(../img/what-we-do-1.png);
 	background-repeat: no-repeat;
 	width: 100%;
@@ -1983,7 +1998,7 @@ body.loading {
 
 /* ceo message */
 .ceo-message{
-	padding: 100px 0px;
+	padding: 80px 0px 0;
 	background-image: url(../img/what-we-do-1.png);
 	background-repeat: no-repeat;
 	width: 100%;
@@ -2020,7 +2035,7 @@ body.loading {
 	position: absolute;
 	top: 115px;
 	left: 0;
-	z-index: -1;
+	z-index: 0;
 }
 
 .ceo-message-img{
@@ -2068,7 +2083,7 @@ body.loading {
 
 
 .teams-section-three {
-	padding: 100px 0;
+	padding: 80px 0 0;
 	position: relative;
 	background-image: url(../img/inner-banner-2.jpg);
 	width: 100%;
@@ -2221,7 +2236,7 @@ body.loading {
 -------------------------------------*/
 
 .service-inrpages{
-	padding: 150px 0px;
+	padding: 150px 0px 0;
 	background-image: url(../img/portfolio.png);
 	background-repeat: no-repeat;
 	width: 100%;
@@ -2292,7 +2307,7 @@ body.loading {
 		portfolio page here
 -------------------------------------*/
 .portf-banner-out{
-	padding: 150px 0px;
+	padding: 200px 0px 0;
 	background-image: url(../img/service-bg.png);
 	background-repeat: no-repeat;
 	width: 100%;
@@ -2300,6 +2315,7 @@ body.loading {
 	background-position: center;
 	position: relative;
 	position: relative;
+	height: 100vh;
 }
 
 .portf-page-item-out2{
@@ -2308,7 +2324,7 @@ body.loading {
 
 .portf-page-content-out .item {
 	width: 100%;
-	height: 250px;
+	height: 400px;
 }
 .portf-page-content-out .item img {
 	width: 100%;
@@ -2335,7 +2351,7 @@ body.loading {
 
 /*.gallery*/
 .pf-category{
-	padding: 100px 0;
+	padding: 80px 0 0;
 	position: relative;
 	background-image: url(../img/about-banner.jpg);
 	width: 100%;
@@ -2585,6 +2601,972 @@ body.loading {
 /*------------------------------------
 		END portfolio page here
 -------------------------------------*/
+
+
+/* ----------------------------------------
+              career page
+------------------------------------------ */
+
+.careers .mix-btn-out{
+	display: flex;
+  	justify-content: center;
+}
+
+.career-overview{
+	padding: 80px 0 0;
+	background-image: url(../img/portfolio.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+
+.left-page-career-cont p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #c6c6c6;
+}
+
+.right-page-career-in{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+.right-page-career-in img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+
+/* .career-overview-in{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 80px 60px;
+	border-radius: 30px;
+	border-top: 1px solid #2f2f2f;
+	border-right: 1px solid #2f2f2f;
+	background-color: #090909a3;
+	box-shadow: rgb(19, 18, 18) 0px 4px 12px;
+	position: relative;
+	z-index: 2;
+}
+
+.career-overview-cont {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 42px;
+  color: #c6c6c6;
+} */
+
+/* openings */
+ .career-page_openings {
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0 0;
+	background-image: url(../img/what-we-do-1.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.career_openings_all {
+    margin-top: 40px !important;
+}
+
+.career_openings{
+	position: relative;
+	z-index: 2;
+}
+
+.career_openings_items {
+    margin: 0 10px;
+    position: relative;
+    fill: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	height: 100%;
+}
+
+.career-page_openings .job-card {
+    display: flex; 
+	position: relative;
+}
+
+.career-page_openings .job-card-icon img {
+    width: 70px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: #000;
+    padding: 6px;
+}
+
+.career-page_openings .job-info {
+    margin-left: 25px;
+    flex-grow: 1;
+}
+
+.career-page_openings .job-info h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.career-page_openings .job-info p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFFA1;
+}
+
+.career-page_openings .job_time{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #bbb;
+    margin-bottom: 12px;
+}
+.career-page_openings .job_time img{
+    margin-right: 10px;
+}
+.career-page_openings .job_location{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #bbb;
+}
+.career-page_openings .job_location img {
+    margin-right: 10px;
+}
+
+.career-page_openings .job-info .mix-btn-out {
+	margin-top: 25px;
+}
+
+/* form popup */
+.career-popup-out .popup-form-outr .offcanvas {
+    width: 100% !important;
+}
+  
+.career-popup-out .modal-main-input .offcanvas-end{
+    width: 100% !important;
+    background: #000000ad;
+}
+  
+.career-popup-out .modal-main-input .btn-close{
+    filter: invert(1) !important;
+}
+  
+.career-popup-out .modal-main-input .input-container {
+    position: relative;
+    margin: 20px;
+}
+
+.career-popup-out .modal-main-input .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.career-popup-out .modal-main-input .btn-close:hover {
+    color: #00d9d9;
+}
+  
+.career-popup-out .modal-main-input .input-field {
+    display: block;
+    width: 100%;
+    padding: 17px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #1D1D1D;
+    color: white;
+    border-radius: 8px !important;
+}
+  
+.career-popup-out .modal-main-input .input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    color: rgba(204, 204, 204, 0);
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+  
+.career-popup-out .modal-main-input .input-highlight {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+  
+.career-popup-out .modal-main-input .input-field:focus + .input-label {
+    top: -20px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+  
+.career-popup-out .modal-main-input .input-field:focus + .input-label + .input-highlight {
+    width: 100%;
+}
+  
+.career-popup-out .get-heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 18px;
+}
+.career-popup-out .get-heading::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+}
+
+.career-popup-out .offcanvas-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+.career-popup-out .modal-main-input {
+    width: 60%;
+    height: 75%;
+    backdrop-filter: blur(89.69999694824219px);
+    background: rgba(0, 0, 0, 0.67);
+    padding: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #2f2f2f;
+    border-radius: 20px;
+	margin: auto;
+}
+
+.career-popup-out .offcanvas-header {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    color: white;
+    z-index: 9;
+}
+
+.career-popup-out .modal-main-input .input-group {
+    margin-top: 25px;
+}
+
+.career-popup-out .career-popup-submit{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+  
+.career-popup-out .offcanvas {
+    transition: transform .8s ease-in-out !important;
+    z-index: 99999;
+    background-color: #0000 !important;
+}
+  
+.career-popup-out .iti {
+    width: 100% !important;
+}
+  
+.career-popup-out .gt-icon{
+    width: 14px;
+    display: none;
+}
+  
+.career-popup-out .d-text-none{
+    display: block;
+}
+/* END form popup */
+
+/* testimonial */
+.testimonial-out{
+	padding: 80px 0px 0;
+	background-image: url(../img/what-we-do-1.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.testim-head{
+	width: 55%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.testim-in{
+	position: relative;
+	z-index: 2;
+}
+
+.testimonial-card {
+	background-color: #171717;
+	border-radius: 20px;
+	padding: 50px 50px 0;
+	margin-top: 40px;
+
+}
+
+.testimonial-card-in{
+	padding-bottom: 30px;
+	width: 60%;
+  	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.testimonial-card p {
+	font-weight: 400;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.testimonial-img-star {
+	display: flex;
+	justify-content: center;
+}
+
+.testimonial-card h5 {
+	font-weight: 800;
+	font-size: 16px;
+	color: #ffffff;
+	margin-bottom: 3px;
+	position: relative;
+}
+
+.testimonial-card h5::before {
+	content: '';
+    position: absolute;
+    margin-left: -30px; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 3px;
+	background-color: white;
+}
+
+.testimonial-card h6 {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #B6B6B6;
+	text-align: center;
+}
+
+.testimonial-card img {
+	width: 100px !important;
+	height: 100px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+}
+
+/* END tesimonial */
+
+/* ----------------------------------------
+            END career page
+------------------------------------------ */
+
+
+
+/* ----------------------------------------
+               news at mix page
+------------------------------------------ */
+.main-blogs{
+	padding: 80px 0px 0;
+	background-image: url(../img/what-we-do-1.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.main-blog-in{
+	position: relative;
+  	z-index: 2;
+}
+
+.blog-listing-items-out{
+	padding-right: 30px;
+}
+
+.blog-listing-items{
+    margin-bottom: 80px;
+}
+
+.blog-listing-items-bg {
+    margin-top: 20px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.blog-listing-items-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-listing-items-cont h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.blog-listing-items-cont p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #939393;
+    margin-bottom: 0;
+}
+
+.blog-listing-items-date-auth {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.blog-listing-items-date h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #939393;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.blog-listing-items-auth-img {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.blog-listing-items-auth {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 99px;
+    padding: 5px 25px 5px 5px;
+	gap: 10px;
+}
+
+.blog-listing-items-auth-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.blog-listing-items-auth-cont h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 0;
+    padding-left: 18px;
+}
+
+/* right side */
+.related-blogs {
+    margin-bottom: 30px;
+}
+
+.related-article {
+    margin-bottom: 40px;
+}
+
+.left-related-article h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.left-related-article span {
+    margin-right: 3px;
+}
+
+.single-related-article-bg {
+    height: 150px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.single-related-article-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single-related-article h6 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.single-related-article h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.single-related-article p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8C8C8C;
+    margin: 0;
+}
+
+/* pagination */
+/* .custom-pagination-out {
+    text-align: center;
+} */
+
+
+/* ----------------------------------------
+            END news at mix page
+------------------------------------------ */
+
+
+
+/* ----------------------------------------
+            Start Contact Us Page
+------------------------------------------ */
+.contact-page{
+	padding: 80px 0px 0;
+	background-image: url(../img/what-we-do-1.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.left-contact-get-in{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    display: inline-block;
+    border: 2px solid #ffffffde;
+    padding: 10px 30px;
+    border-radius: 30px;
+    position: relative;
+    width: 200px;
+}
+.left-contact-get-in::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 198px;
+    width: 250px;
+    height: 2px;
+    background: linear-gradient( to right, #ffffff94 30%, rgba(255, 255, 255, 0.048) 100%);
+    transform: translateY(-50%);
+}
+
+.left-contact-phone {
+    margin-top: 30px;
+}
+
+.left-contact-phone h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #b0b0b0;
+}
+
+.left-contact-mail {
+    margin-top: 30px;
+}
+
+.left-contact-mail h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #b0b0b0;
+}
+
+.left-contact-phone h4 span{
+	margin-right: 10px;
+	padding: 6px;
+	color: #00abeb;
+	font-size: 20px;
+}
+
+.left-contact-mail p{
+	font-size: 20px;
+    font-weight: 400;
+    color: #b0b0b0;
+}
+
+.left-contact-mail h4 span{
+	margin-right: 10px;
+	padding: 6px;
+	color: #00abeb;
+	font-size: 20px;
+}
+
+.left-contact-mail p .mail-icon{
+	margin-right: 10px;
+	padding: 6px;
+	color: #00abeb;
+	font-size: 20px;
+}
+
+.left-contact-connect{
+    font-size: 25px;
+    font-weight: 600;
+    /* line-height: 100px; */
+    color: white;
+	margin-bottom: 15px;
+}
+
+.contact-form h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-control{
+    font-size: 16px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #404040de;
+    border-radius: 0;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+.contact-form .form-control:focus {
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    color: white;
+}
+
+.contact-form .form-group label {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+}
+
+.contact-form .form-group textarea{
+    color: white;
+}
+
+.contact-form input{
+    font-size: 15px;
+    color: white;
+}
+
+.contact-form .form-group .form-control::-webkit-input-placeholder { color: #464646;font-size: 16px; } 
+.contact-form .form-group .form-control::-moz-placeholder { color: #464646;font-size: 16px }   
+.contact-form .form-group .form-control:-ms-input-placeholder { color: #464646;font-size: 16px } 
+
+.left-contact {
+    padding-top: 60px;
+}
+
+.right-contact {
+    padding: 60px;
+    border-radius: 30px;
+    border-top: 1px solid #2f2f2f;
+    border-right: 1px solid #2f2f2f;
+    background-color: #090909a3;
+    box-shadow: rgb(19, 18, 18) 0px 4px 12px;
+	position: relative;
+	z-index: 2;
+}
+
+.cont-form-btn{
+    margin-top: 30px !important;
+}
+
+/* Address */
+.contact-address{
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-address-left-items-out {
+    margin-top: 25px !important;
+}
+
+.contact-address-left-items{
+    padding: 35px;
+    border-radius: 12px;
+    background: #191919;
+    /* border: 2px solid #191919; */
+    height: 100%;
+    transition: all 1s;
+}
+.move-up:hover{
+    /* border: 2px solid #95c11f; */
+    transition: all .5s;
+    transform : translateY(-15px) !important;
+    background: linear-gradient(to right, #007AAA, #88B902);
+}
+.move-up:hover .cont-address p{
+    color: #d2d2d2;
+}
+
+.contact-address-left-items h3{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    color: white;
+}
+
+.cont-number {
+    margin-top: 10px;
+}
+
+.cont-number h6{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color: white;
+}
+
+.cont-address h5{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 35px;
+    color: white;
+}
+
+.cont-address p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #a8a8a8;
+    margin-bottom: 0;
+}
+
+.cont-address {
+    margin-top: 20px;
+}
+
+
+/* social links */
+.social-links-footer {
+    margin-top: auto;
+}
+
+.social-links-footer ul {
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px !important;
+}
+
+.social-links-footer ul li {
+    list-style: none;
+}
+
+.social-links-footer ul li a {
+    font-size: 18px !important;
+    color: #fff !important;
+    transition: ease-in-out 0.2s;
+    transform: none !important;
+    padding: 16px 17px;
+    background-color: #222;
+    border-radius: 50px;
+	display: flex;
+}
+.social-links-footer ul li a:hover {
+    background: linear-gradient(to bottom, #00ADEE, #EC008B);
+}
+
+.social-links-footer ul li a:hover {
+    color: #38b59c;
+}
+
+.message-conditions{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #a8a8a8;
+    margin-bottom: 0;
+}
+
+.contact-check{
+	font-size: 16px;
+    font-weight: 400;
+    color: #a8a8a8;
+    margin-bottom: 0;
+}
+
+.message-conditions strong{
+	font-weight: 600;
+}
+
+.contact-check a{
+    color: #00abeb;
+}
+
+.form-check-input{
+  background-color: transparent;
+  border-color: #00abeb;
+}
+
+.form-check-input:checked {
+  background-color: #ec008c;
+  border-color: #ec008c;
+}
+.form-check-input:active,
+.form-check-input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+
+/* ----------------------------------------
+               END Contact Us Page
+------------------------------------------ */
+
+
+
+
+
+
+
+
+/* .clients-banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.clients-banner .rotation-container {
+  position: relative;
+  width: 60vw;
+  height: 60vw;
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 50%;
+  animation: rotateContainer 40s linear infinite;
+}
+
+.clients-banner .banner-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.clients-banner .item {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  transform-origin: center center;
+}
+.clients-banner .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.clients-banner .rotation-container:hover {
+  animation-play-state: paused;
+}
+
+@keyframes rotateContainer {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.clients-banner .rotation-container .item-container-1 {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.clients-banner .rotation-container .item-container-2 {
+  top: 15%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+.clients-banner .rotation-container .item-container-3 {
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+.clients-banner .rotation-container .item-container-4 {
+  bottom: 15%;
+  left: 85%;
+  transform: translate(-50%, 50%);
+}
+.clients-banner .rotation-container .item-container-5 {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.clients-banner .rotation-container .item-container-6 {
+  bottom: 15%;
+  left: 15%;
+  transform: translate(-50%, 50%);
+}
+.clients-banner .rotation-container .item-container-7 {
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.clients-banner .rotation-container .item-container-8 {
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+} */
+
 
 
 

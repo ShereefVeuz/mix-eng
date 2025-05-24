@@ -25,10 +25,10 @@
 	.cta-content{width: 70%;}
 
 	/* portfolio page */
-	.portf-page-content-out .item {
+	/* .portf-page-content-out .item {
 		width: 100%;
 		height: 250px;
-	}
+	} */
 
 }
 
@@ -56,9 +56,9 @@
 		height: 65vh;
 	}
 
-	/* about page */
-	.vis-mis{
-		padding-top: 0;
+	/* career page */
+	.career-popup-out .modal-main-input {
+  		width: 90%;
 	}
 	
 }
@@ -112,7 +112,7 @@
 
 	/* footer */
 	.left-bottom-logo-out{
-		padding-right: 0;
+		padding-right: 15px;
 	}
 	/* END footer */
 
@@ -186,6 +186,16 @@
 	.modal-main-input {
   		width: 90vw;
 		padding: 30px;
+	}
+
+	/* news at mix */
+	.blog-listing-items-out {
+		padding-right: 0px;
+	}
+
+	/* contact page */
+	.right-contact{
+		margin-top: 30px;
 	}
 
 	
@@ -270,9 +280,6 @@
 		height: 40vh;
 	}
 
-	.portfolio{
-		padding-top: 0px;
-	}
 
 	/* footer */
 	.footer-nav-mob{
@@ -314,6 +321,46 @@
 		display: none;
 	}
 
+	/* career page */
+	.career-overview-cont {
+  		font-size: 35px;
+		line-height: 50px;
+	}
+
+	.right-page-career-in{
+		margin-top: 30px;
+	}
+
+	/* news at mix */
+	.blog-listing-items {
+		margin-bottom: 40px;
+	}
+	.blog-listing-items-bg {
+		height: 300px;
+	}
+	.single-related-article-bg{
+		margin-bottom: 30px;
+	}
+
+
+	.vis-mis-img {
+  		height: 300px;
+	}	
+
+
+	/* common */
+	.portfolio,
+	.page-wrapper,
+	.page-about-out,
+	.vis-mis,
+	.teams-section-three,
+	.pf-category,
+	.career-overview,
+	.career-page_openings,
+	.service-inrpages {
+  		padding: 40px 0px 0;
+	}
+
 
 }
 
@@ -345,6 +392,18 @@
 	}
 	.section-title h2 {
 		font-size: 30px;
+	}
+	.blog-listing-items-cont h3 {
+		font-size: 20px;
+		line-height: 20px;
+		margin-bottom: 8px;
+	}
+	.blog-listing-items-date-auth {
+  		display: block;
+	}
+	.blog-listing-items-auth {
+		margin-top: 15px;
+		gap: 10px;
 	}
 	.event-section {
 		display: block;
@@ -468,6 +527,84 @@
 	.get-heading {
   		font-size: 20px;
 	}
+
+	.pf-category .pf-category-filter .filter-item {
+  		font-size: 14px;
+	}
+
+	.pf-category-filter{
+		display: grid;
+	}
+
+
+	/* career page */
+	.career-overview-cont {
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.career-popup-out .get-heading {
+  		font-size: 20px;
+	}
+
+	.career_openings_all {
+  		margin-top: 20px !important;
+	}
+	.career-page_openings .job-card-icon img {
+		width: 40px;
+		height: 40px;
+		border-radius: 10px;
+		padding: 5px;
+	}
+	.career_openings_items {
+  		padding: 20px;
+	}
+	.career-page_openings .job-info h3 {
+  		font-size: 20px;
+		margin-bottom: 3px;
+	}
+	.career-page_openings .job-info p {
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 7px;
+	}
+	.job_time img,
+	.job_location img{
+		width: 15px;
+	}
+	.career-page_openings .job-info {
+		margin-left: 15px;
+	}
+	.career-page_openings .job_time {
+		font-size: 14px;
+		line-height: 15px;
+		margin-bottom: 3px;
+	}
+
+	/* contact page */
+	.right-contact {
+  		padding: 30px 15px;
+	}
+	.contact-form h2 {
+  		font-size: 25px;
+	}
+	.contact-form .form-group label,
+	.contact-form .form-control,
+	.message-conditions,
+	.contact-check {
+  		font-size: 14px;
+	}
+
+	.social-links-footer ul {
+ 		 gap: 6px;
+	}
+	.social-links-footer ul li a {
+  		padding: 13px 14px;
+	}
+
+
+	
+
+
 
 }
 
