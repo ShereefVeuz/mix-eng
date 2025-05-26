@@ -718,5 +718,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
+$(document).ready(function()
+{
+  $('.clients-banner .target, .clients-banner .menu').click(function()
+  {
+    $('.clients-banner .menu').toggle();
+  });
+});
 
