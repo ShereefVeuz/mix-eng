@@ -17,6 +17,10 @@
 		line-height: 120px;
 	}
 
+	.section-title br{
+		display: none;
+	}
+
 	.left-mision-cont, .right-mision-cont {
 		padding: 20px;
 	}
@@ -59,6 +63,15 @@
 	/* career page */
 	.career-popup-out .modal-main-input {
   		width: 90%;
+	}
+	.career-talent-cont{
+		width: 100%;
+	}
+	.career-talent-cont h3 {
+  		font-size: 25px;
+	}
+	.career-talent-cont h3 br{
+		display: none;
 	}
 	
 }
@@ -478,8 +491,6 @@
 	}
 	.page-about-in-cont {
 		padding: 30px 0;
-		background-size: cover;
-		background-position: center;
 	}
 	 .page-about-content .section-title h2 {
 		font-size: 35px;
