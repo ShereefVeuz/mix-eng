@@ -248,6 +248,22 @@ body.loading {
 	padding-top: 100px;
 }
 
+.portfolio,
+	.page-wrapper,
+	.page-about-out,
+	.vis-mis,
+	.teams-section-three,
+	.pf-category,
+	.career-overview,
+	.career-page_openings,
+	.service-inrpages,
+	.zr-hu-video-out,
+	.about-section,
+	.contact-page {
+		position: relative;
+  		overflow: hidden;
+	}
+
 
 
 /* ---------------------------------------
